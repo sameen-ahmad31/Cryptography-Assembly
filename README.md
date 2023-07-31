@@ -14,9 +14,9 @@ The program then returned to step 1 (main) and awaited the next user input.
 For decryption, the process was the reverse of encryption:
 <br>
 1. Bitshift (right): The encrypted message was right-shifted by the first character of the key.
-<br>
+
 2. Caesar: The result from the Bitshift step (if performed) was subtracted by the last three digits of the key. The result was then MODed with 128.
-<br>
+
 3. Vigenere: The message was XORed with the second character of the key, resulting in the decrypted message. The decrypted message was stored at x5000, while the encrypted message at x4000 remained unchanged.
 <br>
 
