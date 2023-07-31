@@ -19,5 +19,4 @@ For decryption, the process was the reverse of encryption:
 
 3. Vigenere: The message was XORed with the second character of the key, resulting in the decrypted message. The decrypted message was stored at x5000, while the encrypted message at x4000 remained unchanged.
 <br>
-
 The program concluded by returning to step 1 (main) and prompting the user for the next input. If the user typed "X," the encrypted message was erased and filled with zeros before halting the program. The program underwent rigorous testing to ensure accurate encryption and decryption functionality.
